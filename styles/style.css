@@ -78,7 +78,7 @@ body {
     letter-spacing: 30px;
     font-size: 100px;
     font-weight: 700;
-    line-height: 1.18;
+    line-height: 1.17;
 }
 
 .aligned-text {
@@ -108,7 +108,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 104px;
+    padding-top: 106px;
 }
 
 .cover__description-text {
@@ -302,12 +302,12 @@ body {
     list-style: none;
 }
 
-.no-line {
-    text-decoration: none;
-}
-
 .link {
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
+}
+
+.no-line {
+    text-decoration: none;
 }
