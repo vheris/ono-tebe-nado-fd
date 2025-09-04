@@ -16,9 +16,6 @@ body {
 
 .header__links-list-item {
     list-style: circle;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 0.5px;
 }
 
 .header__links-list-item:nth-child(3) {
@@ -51,11 +48,6 @@ body {
     line-height: 1.36;
 }
 
-.address-links {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 0.5px;
-}
 
 .cover {
     position: relative;
@@ -220,9 +212,6 @@ body {
     margin: 29px 0 0 40px;
     font-size: 20px;
     font-weight: 400;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 1px;
 }
 
 .about {
@@ -295,12 +284,6 @@ body {
     list-style: none;
 }
 
-.footer__menu-link {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 1px;
-}
-
 .footer__social-list {
     justify-self: end;
     display: flex;
@@ -321,4 +304,10 @@ body {
 
 .no-line{
     text-decoration: none;
+}
+
+.link{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
 }
